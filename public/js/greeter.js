@@ -8,7 +8,9 @@ var Student = (function () {
     return Student;
 })();
 function greeter(person) {
-    return "Hello, " + person.firstName + " " + person.lastName;
+    return "Hello, " + person.firstName + " " + person.middleInitial + " " + person.lastName + "<br>";
 }
 var user = new Student("Jane", "M.", "User");
-document.body.innerHTML = greeter(user);
+var user2 = new Student("Bill", "Ba", "Oh");
+var html = greeter(user) + greeter(user2);
+document.body.innerHTML = html;
