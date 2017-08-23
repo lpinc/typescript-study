@@ -2,3 +2,6 @@
 .project
 .settings/
 test-dojo-app/node_modules
+test-dojo-app/_build/
+test-dojo-app/dist/
+test-dojo-app/output/
