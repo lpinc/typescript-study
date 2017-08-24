@@ -1,5 +1,5 @@
 import { ProjectorMixin } from '@dojo/widget-core/mixins/Projector';
-import App from './App';
+import App from './widgets/App';
 
 const root = document.querySelector('my-app') || undefined;
 
