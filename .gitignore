@@ -1,6 +1,7 @@
 .buildpath
 .project
 .settings/
+.vscode
 test-dojo-app/node_modules
 test-dojo-app/_build/
 test-dojo-app/dist/

@@ -21,7 +21,6 @@ export default class App extends AppBase<WidgetProperties> {
 		{
 			firstName: 'Tim',
 			lastName: 'Jones',
-			email: 'tim.jones@bizecorp.org',
 			tasks: [
 				'6267 - Untangle paperclips',
 				'4384 - Shred documents',
@@ -30,7 +29,11 @@ export default class App extends AppBase<WidgetProperties> {
 		},
 		{
 			firstName: 'Alicia',
-			lastName: 'Fitzgerald'
+			lastName: 'Fitzgerald',
+			email: 'Fitzgerald@email.com',
+			tasks: [
+				'626x - Sniff Glue'
+			]
 		},
 		{
 			firstName: 'Hans',
